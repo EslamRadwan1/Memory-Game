@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Memory Blocks Game" />
+    <meta name="author" content="Eslam Radwan" />
+    <meta name="theme-color" content="#0d6efd" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:title" content="Memory Game" />
+    <meta property="og:description" content="Memory Blocks Game" />
+    <meta property="og:image" content="favicon-32.png" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+
+    <!-- Icons -->
+    <link rel="icon" href="imgs/icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/icon.png" />
+
+    <!-- Title -->
+    <title>Memory Game</title>
+
+    <!-- Styles -->
+    <!-- <link rel="canonical" href=""> -->
+    <!-- Render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- main CSS file -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preload" href="css/styles.css" as="style" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="control-buttons">
+        <input type="text" placeholder="Enter Your Name" maxlength="10" />
+        <div class="char-count"></div>
+        <span>Start Game</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="info-container">
+        <div class="name">Hello: <span></span></div>
+        <div class="tries">Tries: <span></span></div>
+      </div>
+      <div class="memory-game-blocks">
+        <div class="game-block" data-fruit="avocado">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/avocado.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="avocado">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/avocado.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="cherry">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/cherry.webp" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="cherry">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/cherry.webp" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="strawberry">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/strawberry.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="strawberry">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/strawberry.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="mango">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/mango.avif" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="mango">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/mango.avif" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="orange">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/orange.avif" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="orange">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/orange.avif" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="banana">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/banana.jpg!sw800" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="banana">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/banana.jpg!sw800" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="grape">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/grape.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="grape">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/grape.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="pear">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/pear.avif" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="pear">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/pear.avif" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="watermelon">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/watermelon.avif" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="watermelon">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/watermelon.avif" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="apple">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/apple.webp" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-fruit="apple">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="imgs/apple.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>Made With ❤︎⁠ By <span>Eslam Radwan</span></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
