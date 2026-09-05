@@ -10,7 +10,11 @@ A fun and interactive memory card game built with vanilla JavaScript. The player
 
 ## 📸 Screenshots
 
-Add screenshots of the game here.
+<img width="1264" height="954" alt="memoryGame-start" src="https://github.com/user-attachments/assets/bfb18d20-1f54-41a3-8aa2-b50beaf1ac34" />
+
+<img width="1236" height="952" alt="memoryGame-play" src="https://github.com/user-attachments/assets/0ccea192-4838-4de0-acf3-0ec8ff555b4e" />
+
+<img width="1258" height="962" alt="memoryGame-lose" src="https://github.com/user-attachments/assets/5c90dea9-197c-4970-a564-69c9ce46fe00" />
 
 ---
 
